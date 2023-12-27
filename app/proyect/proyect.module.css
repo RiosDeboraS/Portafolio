@@ -1,0 +1,48 @@
+/* Estilos para el contenedor principal */
+.container {
+  text-align: center;
+  margin: 20px;
+  background-color: black;
+  padding: auto;
+}
+
+/* Estilos para el título h1 */
+.title {
+  color: white;
+}
+
+/* Estilos para el título h2 */
+.subtitle {
+  color: white;
+}
+
+/* Estilos para la imagen */
+.image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+/* Estilos para el párrafo */
+.paragraph {
+  color: white;
+  line-height: 1.6;
+}
+
+/* Estilos para los botones */
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos para el enlace */
+.link {
+  color: #007bff;
+  text-decoration: none;
+}
