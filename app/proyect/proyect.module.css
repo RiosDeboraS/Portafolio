@@ -1,32 +1,39 @@
 /* Estilos para el contenedor principal */
 .container {
   text-align: center;
-  margin: 20px;
+  margin: 100px;
   background-color: black;
   padding: auto;
+  margin-left: 20%;
+  max-width: 100%;
+  overflow: auto;
 }
 
 /* Estilos para el título h1 */
 .title {
+  margin: auto;
   color: white;
 }
 
 /* Estilos para el título h2 */
 .subtitle {
   color: white;
+  margin: auto;
 }
 
 /* Estilos para la imagen */
 .image {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
   margin: 20px 0;
 }
 
 /* Estilos para el párrafo */
 .paragraph {
+  margin-left: 50px;
   color: white;
   line-height: 1.6;
+  text-align: center;
 }
 
 /* Estilos para los botones */
@@ -39,10 +46,23 @@
   margin-right: 10px;
   border: none;
   cursor: pointer;
+  margin-top: auto;
 }
 
 /* Estilos para el enlace */
 .link {
   color: #007bff;
   text-decoration: none;
+}
+
+.proyect {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #00ff3345;
+  border-radius: 50px;
+  margin: 20px;
+  text-align: center;
+  overflow: auto;
 }
