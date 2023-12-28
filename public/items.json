@@ -1,0 +1,13 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "imageUrl": "/portada2.png"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/portada.png"
+      }
+    ]
+  }
+  

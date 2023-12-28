@@ -1,13 +1,17 @@
 .sidebar {
   width: 200px;
-  height: 90%;
+  height: auto;
   position: fixed;
   top: 0;
-  left: 0;
-  background-color: #f5f5f5;
+
+  background-color: rgba(243, 211, 168, 0.1); /* Fondo casi transparente */
   padding: 20px;
-  overflow: auto;
+
   border-radius: 10px; /* Agrega bordes circulares */
+  border: 0, 1px solid rgb(175, 13, 151);
+  box-shadow: 0 0 10px rgb(175, 13, 151), 0 0 20px rgb(175, 13, 151),
+    0 0 30px rgb(175, 13, 151), 0 0 40px rgb(175, 13, 151);
+
   margin: 10px; /* Agrega márgenes */
   text-align: center; /* Centra el contenido */
 }
@@ -15,8 +19,8 @@
 /* Estilos para la imagen */
 .img {
   border-radius: 50%; /* Hace que la imagen sea redondeada */
-  width: 80px; /* Ajusta el ancho según tu preferencia */
-  height: 80px; /* Ajusta la altura según tu preferencia */
+  width: 150px; /* Ajusta el ancho según tu preferencia */
+  height: 150px; /* Ajusta la altura según tu preferencia */
   object-fit: cover; /* Evita que la imagen se estire */
   margin-bottom: 10px; /* Agrega espacio entre la imagen y el contenido siguiente */
 }

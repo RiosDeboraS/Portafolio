@@ -1,7 +1,7 @@
-.containerStyle {
-  margin: auto;
-
-  font-family: monospace;
+.container {
+  justify-content: center;
+  align-items: center;
+  font-family: "Armata", sans-serif;
 }
 
 .imageStyle {
@@ -13,61 +13,21 @@
   border-radius: 8px;
 }
 
-/* Estilos para el texto
-.headingStyle {
-  color: aliceblue;
-  margin: 50px auto;
-  font-size: 1.5em;
-  font-family: monospace;
-  border-right: 3px solid;
-  animation: teclear 3s steps(16), efecto, 5s step-end infinite;
-}
-
-/* Definición de la animación */
-/*@keyframes teclear {
-  from {
-    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-  }
-  to {
-    clip-path: polygon(0 0, 0 0, 0 100% 100%, 0% 100%);
-  }
-}
-@keyframes efecto {
-  50% {
-    border-color: transparent;
-  }
-}*/
-
-/* Estilos para el texto */
-
 .h1 {
-  color: aliceblue;
-
-  position: relative;
+  color: rgb(240, 243, 246);
+  font-family: "Armata", sans-serif;
+  text-align: center;
 }
 
-.h1span {
-  position: absolute;
-  right: 0;
-  width: 0;
-  background: black;
-  border-left: 2px solid #000;
+.h2 {
+  text-align: center;
 
-  animation: maquina 5s infinite alternate steps(17);
-}
-
-/* Definición de la animación */
-@keyframes maquina {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 0; /* Inicia con un ancho de 0 */
-  }
+  color: rgb(240, 243, 246);
+  font-family: "Armata", sans-serif;
 }
 
 .paragraphStyle {
-  color: aliceblue;
+  color: rgb(240, 243, 246);
   font-size: 1em;
   line-height: 1.6;
 }
