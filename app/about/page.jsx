@@ -1,41 +1,26 @@
-//import style from "./about.module.css";
-"use client";
-import React, { useEffect } from "react";
 import style from "./About.module.css";
 
 export default function About() {
-  useEffect(() => {
-    const text = "RIOS DEBORA SABRINA|";
-    let index = 0;
-
-    const typeWriter = () => {
-      const typingElement = document.getElementById("typing");
-      if (typingElement && index < text.length) {
-        typingElement.innerHTML = text.slice(0, index + 1);
-        index++;
-        setTimeout(typeWriter, 100);
-      }
-    };
-    typeWriter();
-  }, []);
-
   return (
     <div className={style.container}>
       <div className={style.container}>
-        <h1 id="typing" className={style.h1}></h1>
+        <p className={style.parrafo}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eaque
+          voluptatibus sunt cumque facere ut rerum, magni dolorem cum excepturi
+          iste, quaerat fuga corrupti quibusdam ad libero aliquam, tenetur quia.
+        </p>
+        <p className={style.parrafo}>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos
+          expedita enim inventore reprehenderit. Facilis quos, optio repellat
+          perferendis in porro quia vitae error distinctio aut suscipit, iusto
+          repudiandae reiciendis ullam.
+        </p>
+        <p align="center">
+          <a href="https://skillicons.dev">
+            <img src="https://skillicons.dev/icons?i=js,html,css,vite,nodejs,postgres,prisma,react,redux,sequelize,vercel,nextjs" />
+          </a>
+        </p>
       </div>
-
-      <h2 className={style.h1}>
-        Hola soy desarroladora full stack te invito a ver mi trabajo!!
-        <br />
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo amet et
-          <br />
-          eos ipsum. Asperiores sapiente ipsa nobis ducimus quasi veritatis esse
-          <br />
-        </span>
-      </h2>
-      <br />
     </div>
   );
 }

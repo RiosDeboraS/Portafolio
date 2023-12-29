@@ -4,9 +4,9 @@ export default function Sidebar() {
   return (
     <div className={style.sidebar}>
       <img className={style.img} src="perfil.jpeg" />
-      <div> Full Stack Develop</div>
-      <h2> Especialidad 'Backend'</h2>
-      <p align="center">
+      <h1> RIOS DEBORA SABRINA</h1>
+
+      {/* <p align="center">
         <a href="https://skillicons.dev">
           <img src="https://skillicons.dev/icons?i=js,html,css,vite," />
         </a>
@@ -20,7 +20,7 @@ export default function Sidebar() {
         <a href="https://skillicons.dev">
           <img src="https://skillicons.dev/icons?i=redux,sequelize,vercel,nextjs" />
         </a>
-      </p>
+      </p> */}
     </div>
   );
 }

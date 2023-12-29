@@ -1,0 +1,76 @@
+.container {
+  justify-content: center;
+  align-items: center;
+  font-family: "Orbitron", sans-serif;
+  color: rgb(152, 152, 152);
+  margin: 20px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.parrafo {
+  color: rgb(152, 152, 152);
+  font-family: "Orbitron", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; /* espacio entre lineas*/
+  letter-spacing: 2px; /* espacio entre letras */
+  word-spacing: 5px; /* espacio entre palabras */
+  margin: 5%;
+}
+
+.h2 {
+  color: aliceblues;
+  font-family: "Orbitron", sans-serif;
+  font-size: 3em;
+}
+
+.img {
+  height: 50%;
+  width: 50%;
+}
+
+.buton {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: linear-gradient(#00ccff, #d400d4);
+  background: linear-gradient(#00ccff, #d400d4);
+}
+
+.titulo {
+  margin-top: 50px;
+}
+
+.proyectosContainer {
+  display: flex;
+
+  align-items: center;
+}
+
+.proyectoContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.caja {
+  width: 300px; /* Ajusta el ancho según tus necesidades */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.imagenProyecto {
+  width: 100%;
+  height: auto;
+}
+
+.descripcionProyecto {
+  margin-top: 10px;
+}

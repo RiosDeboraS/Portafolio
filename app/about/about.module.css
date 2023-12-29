@@ -1,33 +1,18 @@
 .container {
   justify-content: center;
   align-items: center;
-  font-family: "Armata", sans-serif;
+  font-family: "Orbitron", sans-serif;
+  color: rgb(152, 152, 152);
 }
 
-.imageStyle {
-  width: 50%;
-  height: auto;
-  margin-right: auto;
-  margin: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
-
-.h1 {
-  color: rgb(240, 243, 246);
-  font-family: "Armata", sans-serif;
-  text-align: center;
-}
-
-.h2 {
-  text-align: center;
-
-  color: rgb(240, 243, 246);
-  font-family: "Armata", sans-serif;
-}
-
-.paragraphStyle {
-  color: rgb(240, 243, 246);
+.parrafo {
+  color: rgb(152, 152, 152);
+  font-family: "Orbitron", sans-serif;
   font-size: 1em;
-  line-height: 1.6;
+  line-height: 1.5; /* espacio entre lineas*/
+  letter-spacing: 2px; /*espacio entre letras*/
+  word-spacing: 5px; /*espacio entre palabras*/
+  align-items: center;
+  margin-top: 0; /* margen superior ajustado */
+  margin-bottom: 10px; /* margen inferior ajustado */
 }

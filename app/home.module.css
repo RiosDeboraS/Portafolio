@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Armata&display=swap");
 .container {
   text-align: center;
-  background: linear-gradient(to right, #000000, #57059256, #000000);
+  background: black;
   position: fixed;
   top: 0;
   left: 0;
