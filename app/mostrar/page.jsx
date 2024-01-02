@@ -48,33 +48,39 @@ export default function Mostrar() {
       <div className={style.proyectosContainer}>
         <div className={style.proyectoContainer}>
           <div className={style.caja}>
-            <h1>POKEDEX</h1>
+            <h1>Pokédex</h1>
             <img
-              src="/portada.png"
+              src="/Captura de pantalla (79).png"
               alt="poke"
               className={style.imagenProyecto}
             />
             <p className={style.descripcionProyecto}>
+              <a
+                href="https://github.com/RiosDeboraS/pokedex"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={style.buton}>
+                  <FontAwesomeIcon icon={faGithub} />
+                </button>
+              </a>{" "}
+              <a
+                href="https://vorttex-gaming-topabli2-topablis-projects.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={style.buton}>
+                  <FontAwesomeIcon icon={faLink} />
+                </button>
+              </a>
+              <br />
+              <br />
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat,
               rem asperiores doloremque inventore iusto exercitationem adipisci
               reiciendis assumenda quia aperiam labore in nobis, cumque
               pariatur? Architecto adipisci tempore fugit ea!
-            </p>
-          </div>
-        </div>
-        <div className={style.proyectoContainer}>
-          <div className={style.caja}>
-            <h1>POKEDEX</h1>
-            <img
-              src="/portada.png"
-              alt="poke"
-              className={style.imagenProyecto}
-            />
-            <p className={style.descripcionProyecto}>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat,
-              rem asperiores doloremque inventore iusto exercitationem adipisci
-              reiciendis assumenda quia aperiam labore in nobis, cumque
-              pariatur? Architecto adipisci tempore fugit ea!
+              <br />
+              <br></br>
             </p>
           </div>
         </div>
