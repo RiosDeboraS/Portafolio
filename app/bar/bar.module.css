@@ -10,7 +10,7 @@
   border-radius: 20px; /* Agrega bordes circulares */
   border: 0, 1px solid rgb(175, 13, 151);
 
-  margin: 20px; /* Agrega márgenes */
+  margin: 10px; /* Agrega márgenes */
   display: inline-flex;
   justify-content: space-between;
 
@@ -20,11 +20,11 @@
   background: linear-gradient(to right, #009dff00, #ff00d900);
 }
 .sidebar h1 {
-  margin-right: 25%;
-  font-size: 4em;
-
+  font-size: 3em;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  color: rgb(152, 152, 152);
+  color: rgb(246, 243, 243);
   font-family: "Orbitron", sans-serif;
   white-space: nowrap; /* Añadido para mantener el texto en una sola línea */
 }
@@ -36,4 +36,20 @@
   height: 100%; /* Ajusta la altura según tu preferencia */
   object-fit: cover; /* Evita que la imagen se estire */
   margin-bottom: 4px; /* Agrega espacio entre la imagen y el contenido siguiente */
+}
+
+.buton {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: linear-gradient(#00ccff, #d400d4);
+  background: linear-gradient(#00ccff, #d400d4);
+  margin: 5px;
+  cursor: pointer;
+}
+.h2 {
+  position: relative;
+  color: rgb(246, 243, 243);
+  font-family: "Orbitron", sans-serif;
 }

@@ -2,11 +2,11 @@
   justify-content: center;
   align-items: center;
   font-family: "Orbitron", sans-serif;
-  color: rgb(152, 152, 152);
+  color: rgb(246, 243, 243);
 }
 
 .parrafo {
-  color: rgb(152, 152, 152);
+  color: rgb(246, 243, 243);
   font-family: "Orbitron", sans-serif;
   font-size: 1em;
   line-height: 1.5; /* espacio entre lineas*/
@@ -15,4 +15,11 @@
   align-items: center;
   margin-top: 0; /* margen superior ajustado */
   margin-bottom: 10px; /* margen inferior ajustado */
+}
+
+.h1 {
+  font-size: 30px;
+  background: linear-gradient(#00ccff, #d400d4);
+  background-clip: text;
+  color: transparent;
 }

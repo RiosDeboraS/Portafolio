@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(33, 4, 61);
+  background: black;
   overflow: hidden;
   border-radius: 20px;
 }
@@ -48,7 +48,7 @@
   font-size: 2em;
   position: relative;
   z-index: 1em;
-  color: rgb(152, 152, 152);
+  color: rgb(246, 243, 243);
   font-family: "Orbitron", sans-serif;
 }
 

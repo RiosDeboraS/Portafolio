@@ -1,26 +1,55 @@
 import style from "./bar.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 export default function Sidebar() {
   return (
     <div className={style.sidebar}>
       <img className={style.img} src="perfil.jpeg" />
       <h1> RIOS DEBORA SABRINA</h1>
-
-      {/* <p align="center">
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=js,html,css,vite," />
+      <h2 className={style.h2}>
+        contact:
+        <a
+          href="https://www.linkedin.com/in/debora-sabrina-rios-fullstack/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={style.buton}>
+            <FontAwesomeIcon icon={faLinkedin} />
+          </button>
         </a>
-      </p>
-      <p align="center">
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=nodejs,postgres,prisma,react" />
-        </a>
-      </p>
-      <p align="center">
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=redux,sequelize,vercel,nextjs" />
-        </a>
-      </p> */}
+        <a
+          href="https://github.com/RiosDeboraS"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={style.buton}>
+            <FontAwesomeIcon icon={faGithub} />
+          </button>
+        </a>{" "}
+        <a
+          href="mailto:riosdeborasabrina@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={style.buton}>
+            <FontAwesomeIcon icon={faEnvelope} />
+          </button>
+        </a>{" "}
+        <a
+          href="Rios Debora Sabrina.pdf"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className={style.buton}>
+            <FontAwesomeIcon icon={faDownload} />
+          </button>
+        </a>{" "}
+      </h2>
     </div>
   );
 }

@@ -42,7 +42,9 @@ export default function Mostrar() {
           </a>{" "}
         </div>
       </div>
-      <h1 className={style.titulo}>Otros proyectos</h1>
+      <div>
+        <h1 className={style.titulo}>Otros proyectos</h1>
+      </div>
       <div className={style.proyectosContainer}>
         <div className={style.proyectoContainer}>
           <div className={style.caja}>
