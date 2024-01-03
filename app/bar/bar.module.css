@@ -3,12 +3,11 @@
   top: 0;
   width: 90%;
   height: 300px;
-
+  font-family: monospace;
   background-color: rgba(243, 211, 168, 0.1); /* Fondo casi transparente */
   padding: 10px;
 
   border-radius: 20px; /* Agrega bordes circulares */
-  border: 0, 1px solid rgb(175, 13, 151);
 
   margin: 10px; /* Agrega márgenes */
   display: inline-flex;
@@ -25,7 +24,7 @@
   align-items: center;
   position: relative;
   color: rgb(246, 243, 243);
-  font-family: "Orbitron", sans-serif;
+  font-family: monospace;
   white-space: nowrap; /* Añadido para mantener el texto en una sola línea */
 }
 
@@ -51,5 +50,5 @@
 .h2 {
   position: relative;
   color: rgb(246, 243, 243);
-  font-family: "Orbitron", sans-serif;
+  font-family: monospace;
 }

@@ -1,13 +1,13 @@
 .container {
   justify-content: center;
   align-items: center;
-  font-family: "Orbitron", sans-serif;
+  font-family: monospace;
   color: rgb(246, 243, 243);
 }
 
 .parrafo {
   color: rgb(246, 243, 243);
-  font-family: "Orbitron", sans-serif;
+  font-family: monospace;
   font-size: 1em;
   line-height: 1.7; /* espacio entre lineas*/
   letter-spacing: 2px; /*espacio entre letras*/

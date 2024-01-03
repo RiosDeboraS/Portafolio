@@ -13,7 +13,7 @@
 
 .parrafo {
   color: rgb(246, 243, 243);
-  font-family: "Orbitron", sans-serif;
+  font-family: monospace;
   font-size: 1em;
   line-height: 1.5; /* espacio entre lineas*/
   letter-spacing: 2px; /* espacio entre letras */
@@ -23,7 +23,7 @@
 
 .h2 {
   color: aliceblues;
-  font-family: "Orbitron", sans-serif;
+  font-family: monospace;
   font-size: 3em;
 }
 
