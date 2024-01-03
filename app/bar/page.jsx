@@ -40,7 +40,7 @@ export default function Sidebar() {
           </button>
         </a>{" "}
         <a
-          href="Rios Debora Sabrina.pdf"
+          href="Rios Debora Sabrina (3).pdf"
           download
           target="_blank"
           rel="noopener noreferrer"

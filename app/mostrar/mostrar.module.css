@@ -64,7 +64,7 @@
 }
 
 .caja {
-  width: 300px; /* Ajusta el ancho según tus necesidades */
+  width: 550px; /* Ajusta el ancho según tus necesidades */
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
@@ -79,4 +79,7 @@
 
 .descripcionProyecto {
   margin-top: 10px;
+  line-height: 1.5; /* espacio entre lineas*/
+  letter-spacing: 2px; /* espacio entre letras */
+  word-spacing: 5px; /* espacio entre palabras */
 }

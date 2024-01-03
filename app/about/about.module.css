@@ -9,12 +9,13 @@
   color: rgb(246, 243, 243);
   font-family: "Orbitron", sans-serif;
   font-size: 1em;
-  line-height: 1.5; /* espacio entre lineas*/
+  line-height: 1.7; /* espacio entre lineas*/
   letter-spacing: 2px; /*espacio entre letras*/
-  word-spacing: 5px; /*espacio entre palabras*/
-  align-items: center;
+  word-spacing: 10px; /*espacio entre palabras*/
+
   margin-top: 0; /* margen superior ajustado */
   margin-bottom: 10px; /* margen inferior ajustado */
+  padding: 10px;
 }
 
 .h1 {
