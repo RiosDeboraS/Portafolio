@@ -24,3 +24,13 @@
   background-clip: text;
   color: transparent;
 }
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 600px) {
+  .parrafo {
+    font-size: 1em;
+  }
+
+  .h1 {
+    font-size: 30px;
+  }
+}

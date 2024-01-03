@@ -84,3 +84,52 @@
   word-spacing: 5px; /* espacio entre palabras */
   font-size: 20px;
 }
+
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 600px) {
+  .container {
+    margin: 10px;
+  }
+
+  .parrafo {
+    font-size: 1em;
+    margin: 2%;
+  }
+
+  .h2 {
+    font-size: 2em;
+  }
+
+  .img {
+    height: 30%;
+    width: 30%;
+  }
+
+  .buton {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+
+  .titulo {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+
+  .proyectoContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .caja {
+    width: 100%; /* Ajusta el ancho según tus necesidades */
+  }
+
+  .imagenProyecto {
+    width: 100%;
+  }
+
+  .descripcionProyecto {
+    font-size: 16px;
+  }
+}

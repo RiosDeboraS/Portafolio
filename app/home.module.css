@@ -10,3 +10,9 @@
   overflow: auto;
   font-family: monospace;
 }
+
+@media (max-width: 600px) {
+  .container {
+    font-size: 0.8em;
+  }
+}

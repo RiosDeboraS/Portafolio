@@ -52,3 +52,24 @@
   color: rgb(153, 149, 149);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+/* Estilos responsivos para pantallas pequeñas */
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+  }
+
+  .sidebar h1 {
+    font-size: 2em;
+  }
+
+  .img {
+    width: 200px;
+  }
+
+  .buton {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+}
