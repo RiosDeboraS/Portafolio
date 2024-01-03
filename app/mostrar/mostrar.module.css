@@ -1,8 +1,8 @@
 .container {
   justify-content: center;
   align-items: center;
-  font-family: "Orbitron", sans-serif;
-  color: rgb(246, 243, 243);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(153, 149, 149);
   margin: 20px;
 }
 
@@ -12,9 +12,9 @@
 }
 
 .parrafo {
-  color: rgb(246, 243, 243);
-  font-family: monospace;
-  font-size: 1em;
+  color: rgb(153, 149, 149);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5em;
   line-height: 1.5; /* espacio entre lineas*/
   letter-spacing: 2px; /* espacio entre letras */
   word-spacing: 5px; /* espacio entre palabras */
@@ -23,7 +23,7 @@
 
 .h2 {
   color: aliceblues;
-  font-family: monospace;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 3em;
 }
 
@@ -45,7 +45,7 @@
 
 .titulo {
   margin-top: 100px;
-  font-size: 30px;
+  font-size: 50px;
   background: linear-gradient(#00ccff, #d400d4);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -82,4 +82,5 @@
   line-height: 1.5; /* espacio entre lineas*/
   letter-spacing: 2px; /* espacio entre letras */
   word-spacing: 5px; /* espacio entre palabras */
+  font-size: 20px;
 }

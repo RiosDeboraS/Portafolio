@@ -2,13 +2,13 @@
   justify-content: center;
   align-items: center;
   font-family: monospace;
-  color: rgb(246, 243, 243);
+  color: rgb(153, 149, 149);
 }
 
 .parrafo {
-  color: rgb(246, 243, 243);
-  font-family: monospace;
-  font-size: 1em;
+  color: rgb(153, 149, 149);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5em;
   line-height: 1.7; /* espacio entre lineas*/
   letter-spacing: 2px; /*espacio entre letras*/
   word-spacing: 10px; /*espacio entre palabras*/
@@ -19,7 +19,7 @@
 }
 
 .h1 {
-  font-size: 30px;
+  font-size: 40px;
   background: linear-gradient(#00ccff, #d400d4);
   background-clip: text;
   color: transparent;

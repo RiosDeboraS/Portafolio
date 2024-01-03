@@ -3,7 +3,7 @@
   top: 0;
   width: 90%;
   height: 300px;
-  font-family: monospace;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgba(243, 211, 168, 0.1); /* Fondo casi transparente */
   padding: 10px;
 
@@ -19,12 +19,12 @@
   background: linear-gradient(to right, #009dff00, #ff00d900);
 }
 .sidebar h1 {
-  font-size: 3em;
+  font-size: 4em;
   justify-content: center;
   align-items: center;
   position: relative;
-  color: rgb(246, 243, 243);
-  font-family: monospace;
+  color: rgb(153, 149, 149);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   white-space: nowrap; /* Añadido para mantener el texto en una sola línea */
 }
 
@@ -49,6 +49,6 @@
 }
 .h2 {
   position: relative;
-  color: rgb(246, 243, 243);
-  font-family: monospace;
+  color: rgb(153, 149, 149);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }

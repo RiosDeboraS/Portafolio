@@ -72,7 +72,7 @@ export default function Mostrar() {
               sobre cada criatura, sus habilidades y características únicas.
               <br />
               <br></br>
-              <h2>tech</h2>
+              <h2>Tecnologías</h2>
               <p align="center">
                 <a href="https://skillicons.dev">
                   <img src="https://skillicons.dev/icons?i=js,html,css,vite,nodejs,postgres,react,redux,sequelize,express" />

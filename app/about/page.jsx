@@ -20,7 +20,7 @@ export default function About() {
         </p>
       </div>
       <div>
-        <h1 className={style.h1}>Stack Tech</h1>
+        <h1 className={style.h1}>Tecnologías</h1>
         <p align="center">
           <a href="https://skillicons.dev">
             <img src="https://skillicons.dev/icons?i=js,html,css,vite,nodejs,postgres,prisma,react,redux,sequelize,vercel,nextjs,ts,express" />

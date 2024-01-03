@@ -11,7 +11,7 @@ export default function Sidebar() {
       <img className={style.img} src="perfil.jpeg" />
       <h1> RIOS DEBORA SABRINA</h1>
       <h2 className={style.h2}>
-        contact:
+        contacto:
         <a
           href="https://www.linkedin.com/in/debora-sabrina-rios-fullstack/"
           target="_blank"
