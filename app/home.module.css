@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 .container {
   text-align: center;
   background: black;
@@ -8,7 +8,8 @@
   width: 100%;
   height: 100%;
   overflow: auto;
-  font-family: monospace;
+
+  font-family: "Roboto", sans-serif;
 }
 
 @media (max-width: 600px) {

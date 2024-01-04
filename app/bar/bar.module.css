@@ -1,10 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 .sidebar {
   top: 0;
   width: 90%;
   height: 300px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: rgba(243, 211, 168, 0.1); /* Fondo casi transparente */
   padding: 10px;
 
@@ -25,8 +23,7 @@
   align-items: center;
   position: relative;
   color: rgb(153, 149, 149);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
   white-space: nowrap; /* Añadido para mantener el texto en una sola línea */
 }
 
@@ -52,8 +49,7 @@
 .h2 {
   position: relative;
   color: rgb(153, 149, 149);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 /* Estilos responsivos para pantallas pequeñas */
 @media (max-width: 600px) {
