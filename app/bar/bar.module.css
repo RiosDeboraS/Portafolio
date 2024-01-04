@@ -1,32 +1,36 @@
 .sidebar {
-  top: 0;
-  width: 90%;
-  height: 300px;
+  top: 110px;
+  width: 800px;
+  height: 400px;
   font-family: "Roboto", sans-serif;
   background-color: rgba(243, 211, 168, 0.1); /* Fondo casi transparente */
-  padding: 10px;
-
-  border-radius: 20px; /* Agrega bordes circulares */
-
-  margin: 10px; /* Agrega márgenes */
-  display: inline-flex;
-  justify-content: space-between;
-
-  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px; /* Agrega bordes circulares */
   display: flex;
   position: relative;
   background: linear-gradient(to right, #009dff00, #ff00d900);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .sidebar h1 {
+  margin: 10px;
   font-size: 4em;
   justify-content: center;
   align-items: center;
   position: relative;
-  color: rgb(153, 149, 149);
+  color: white;
   font-family: "Roboto", sans-serif;
   white-space: nowrap; /* Añadido para mantener el texto en una sola línea */
 }
-
+.p {
+  font-size: 2em;
+  background: linear-gradient(#00ccff, #d400d4);
+  background-clip: text;
+  color: transparent;
+}
 /* Estilos para la imagen */
 .img {
   border-radius: 100%; /* Hace que la imagen sea redondeada */
@@ -47,8 +51,9 @@
   cursor: pointer;
 }
 .h2 {
+  margin: 50px;
   position: relative;
-  color: rgb(153, 149, 149);
+  color: white;
   font-family: "Roboto", sans-serif;
 }
 /* Estilos responsivos para pantallas pequeñas */

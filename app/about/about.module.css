@@ -2,18 +2,19 @@
   justify-content: center;
   align-items: center;
   font-family: monospace;
-  color: rgb(153, 149, 149);
+  color: white;
 }
 
 .parrafo {
-  color: rgb(153, 149, 149);
+  margin: 100px;
+  color: white;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
   line-height: 1.7; /* espacio entre lineas*/
   letter-spacing: 2px; /*espacio entre letras*/
   word-spacing: 10px; /*espacio entre palabras*/
 
-  margin-top: 0; /* margen superior ajustado */
+  margin-top: 250px; /* margen superior ajustado */
   margin-bottom: 10px; /* margen inferior ajustado */
   padding: 10px;
 }

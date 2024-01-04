@@ -8,9 +8,16 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 export default function Sidebar() {
   return (
     <div className={style.sidebar}>
-      <img className={style.img} src="perfil.jpeg" />
-      <h1> RIOS DEBORA SABRINA</h1>
+      <div className={style.sidebar}>
+        <img className={style.img} src="Captura de pantalla (89).png" />
+        <h1> RIOS DEBORA SABRINA</h1>
+        <p className={style.p}>Full Stack Developer</p>
+      </div>
+
       <h2 className={style.h2}>
+        <br />
+        <br />
+        <br />
         contacto:
         <a
           href="https://www.linkedin.com/in/debora-sabrina-rios-fullstack/"

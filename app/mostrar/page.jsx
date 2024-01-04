@@ -11,10 +11,8 @@ export default function Mostrar() {
         <img src="/portada2.png" alt="vorttex Gaming" className={style.img} />
         <div className={style.content}>
           <p className={style.parrafo}>
-            Vortex Gaming no es simplemente una plataforma de venta de claves de
-            videojuegos para PC; es tu compañero en la creación de experiencias
-            de juego inigualables. Diseñada con la visión de satisfacer las
-            necesidades de los usuarios, buscamos hacer cada experiencia única.
+            e-commerce especializado en la venta de claves para videojuegos de
+            PC.
             <br />
             <br />
             <span></span>
@@ -75,10 +73,8 @@ export default function Mostrar() {
               </a>
               <br />
               <br />
-              Explora el fascinante mundo de los Pokémon a través de nuestra
-              plataforma interactiva. Descubre y sumérgete en la colección de
-              cartas de Pokémon, donde podrás acceder a información detallada
-              sobre cada criatura, sus habilidades y características únicas.
+              Landing Page temática de Pokémon, dedicada a la colección de
+              personajes y creación personalizada.
               <br />
               <br></br>
               <h2>Tecnologías</h2>

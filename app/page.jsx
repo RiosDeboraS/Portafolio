@@ -4,6 +4,7 @@ import Sidebar from "./bar/page";
 import style from "./home.module.css";
 import Mostrar from "./mostrar/page";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import Footer from "./footer/page";
 
 export default function Portafolio() {
   return (
@@ -12,6 +13,7 @@ export default function Portafolio() {
       <About></About>
       <Proyecto></Proyecto>
       <Mostrar></Mostrar>
+      <Footer></Footer>
     </div>
   );
 }

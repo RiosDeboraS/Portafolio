@@ -2,7 +2,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  color: rgb(153, 149, 149);
+  color: white;
   margin: 20px;
 }
 
@@ -12,8 +12,8 @@
 }
 
 .parrafo {
-  color: rgb(153, 149, 149);
-  font-family: "Roboto", sans-serif;
+  color: white;
+  font-family: "Roboto";
   font-size: 1.5em;
   line-height: 1.5; /* espacio entre lineas*/
   letter-spacing: 2px; /* espacio entre letras */
@@ -23,7 +23,7 @@
 
 .h2 {
   color: aliceblues;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto";
   font-size: 3em;
 }
 
