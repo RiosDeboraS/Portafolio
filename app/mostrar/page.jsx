@@ -65,7 +65,7 @@ export default function Mostrar() {
                 </button>
               </a>{" "}
               <a
-                href="https://pokedex-rose-nine.vercel.app/home"
+                href="https://pokedex-rose-nine.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
               >
