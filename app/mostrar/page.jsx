@@ -64,6 +64,15 @@ export default function Mostrar() {
                   <FontAwesomeIcon icon={faGithub} />
                 </button>
               </a>{" "}
+              <a
+                href="https://pokedex-rose-nine.vercel.app/home"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className={style.buton}>
+                  <FontAwesomeIcon icon={faLink} />
+                </button>
+              </a>
               <br />
               <br />
               Explora el fascinante mundo de los Pokémon a través de nuestra
