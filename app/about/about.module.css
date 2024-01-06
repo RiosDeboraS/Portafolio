@@ -25,7 +25,8 @@
   background-clip: text;
   color: transparent;
 }
-/* Estilos responsivos para pantallas pequeñas */
+
+/* Estilos responsivos para teléfonos */
 @media (max-width: 600px) {
   .parrafo {
     font-size: 1em;
@@ -33,5 +34,27 @@
 
   .h1 {
     font-size: 30px;
+  }
+}
+
+/* Estilos responsivos para tabletas */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .parrafo {
+    font-size: 1.25em;
+  }
+
+  .h1 {
+    font-size: 35px;
+  }
+}
+
+/* Estilos responsivos para computadoras */
+@media (min-width: 1025px) {
+  .parrafo {
+    font-size: 1.5em;
+  }
+
+  .h1 {
+    font-size: 40px;
   }
 }

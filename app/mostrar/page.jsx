@@ -78,11 +78,10 @@ export default function Mostrar() {
               <br />
               <br></br>
               <h2>Tecnologías</h2>
-              <p align="center">
-                <a href="https://skillicons.dev">
-                  <img src="https://skillicons.dev/icons?i=js,html,css,vite,nodejs,postgres,react,redux,sequelize,express" />
-                </a>
-              </p>
+              <a href="https://skillicons.dev">
+                <img src="https://skillicons.dev/icons?i=js,html,css,vite,nodejs" />
+                <img src="https://skillicons.dev/icons?i=react,redux,sequelize,express,postgres" />
+              </a>
             </p>
           </div>
         </div>

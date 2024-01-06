@@ -10,7 +10,7 @@ export default function Sidebar() {
     <div className={style.sidebar}>
       <div className={style.sidebar}>
         <img className={style.img} src="Captura de pantalla (89).png" />
-        <h1> RIOS DEBORA SABRINA</h1>
+        <h1> DEBORA SABRINA RIOS</h1>
         <p className={style.p}>Full Stack Developer</p>
       </div>
 

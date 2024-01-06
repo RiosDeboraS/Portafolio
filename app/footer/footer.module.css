@@ -4,3 +4,24 @@
   font-size: 1.5em;
   font-family: "Roboto", sans-serif;
 }
+
+/* Estilos responsivos para teléfonos */
+@media (max-width: 600px) {
+  .p {
+    font-size: 1em;
+  }
+}
+
+/* Estilos responsivos para tabletas */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .p {
+    font-size: 1.25em;
+  }
+}
+
+/* Estilos responsivos para computadoras */
+@media (min-width: 1025px) {
+  .p {
+    font-size: 1.5em;
+  }
+}

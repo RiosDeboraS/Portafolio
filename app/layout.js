@@ -1,6 +1,11 @@
 export const metadata = {
   title: "Rios Debora Sabrina",
-  description: "holaaaaa",
+  description: "Portafolio",
+  icons: {
+    icon: ["/Captura-de-pantalla-_89.ico?v=4"],
+    apple: ["/Captura-de-pantalla-_89.ico?v=4"],
+    shortcut: ["/Captura-de-pantalla-_89_.ico"],
+  },
 };
 
 export default function RootLayout({ children }) {
