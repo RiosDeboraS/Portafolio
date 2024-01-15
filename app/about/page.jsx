@@ -5,12 +5,12 @@ export default function About() {
     <div>
       <div className={style.container}>
         <p className={style.parrafo}>
-          Soy una Desarrolladora Full Stack con sede en Argentina. Mi pasión
-          radica en abordar desafíos creativamente y encontrar soluciones
-          innovadoras en el desarrollo web. Especializada en el Backend, he
-          forjado habilidades sólidas diseñando arquitecturas robustas que
-          mejoran la experiencia del usuario. ¡Explorar nuevas tecnologías y
-          crear soluciones eficientes es mi enfoque!
+          Soy una Desarrolladora Full Stack con base en Argentina. Mi pasión
+          radica en abordar desafíos de manera creativa y encontrar soluciones
+          innovadoras en el desarrollo web. He forjado habilidades sólidas
+          diseñando arquitecturas que mejoran la experiencia del usuario.
+          ¡Explorar nuevas tecnologías y crear soluciones eficientes es mi
+          enfoque!
         </p>
       </div>
       <div>

@@ -62,15 +62,6 @@ export default function Mostrar() {
                   <FontAwesomeIcon icon={faGithub} />
                 </button>
               </a>{" "}
-              <a
-                href="https://pokedex-rose-nine.vercel.app"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className={style.buton}>
-                  <FontAwesomeIcon icon={faLink} />
-                </button>
-              </a>
               <br />
               <br />
               Landing Page temática de Pokémon, dedicada a la colección de
