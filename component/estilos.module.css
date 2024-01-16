@@ -1,0 +1,45 @@
+.titulo {
+  color: aliceblues;
+  font-family: "Roboto";
+  font-size: 3em;
+}
+
+.contenedor {
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin: 20px;
+  display: flex;
+  width: 550px; /* Ajusta el ancho según tus necesidades */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 20px;
+}
+
+.buton {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 50%;
+  color: linear-gradient(#00ccff, #d400d4);
+  background: linear-gradient(#00ccff, #d400d4);
+  margin: 5px;
+  cursor: pointer;
+}
+
+.p {
+  color: white;
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7; /* espacio entre lineas*/
+  letter-spacing: 2px; /*espacio entre letras*/
+  word-spacing: 10px; /*espacio entre palabras*/
+
+  margin-top: 250px; /* margen superior ajustado */
+  margin-bottom: 10px; /* margen inferior ajustado */
+  padding: 10px;
+}

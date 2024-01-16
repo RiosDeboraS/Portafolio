@@ -44,7 +44,7 @@ export default function Proyectos() {
   return (
     <div className={stylo.cont}>
       <div className={stylo.box}>
-        <h2 className={stylo.h2}>Proyectos Destacados</h2>
+        <h1 className={stylo.h2}>Proyectos</h1>
       </div>
     </div>
   );
